@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Practica de JavaScript programando el jeugo de laVieja # Tres en raya">
+	<title>La Vieja</title>
+	<style>
+			body, html
+			{
+				font-family:fantasy;
+				color: black;
+				font-size:16px;
+			}
+			#gato td{
+			border: thin solid black;
+			font-size: 300%;
+			height: 1em;
+			padding: 1em;
+			width: 1em;
+
+			}
+	</style>
+</head>
+<body>
+
+	<h1>Juego de la Vieja</h1>
+	<!-- table#gato>(tr>(td#c$.gato)*3)*3 -->
+	<table id="gato" cellspacing=0;>
+		<tr>
+			<td id="c1" class="gato"></td>
+			<td id="c2" class="gato"></td>
+			<td id="c3" class="gato"></td>
+		</tr>
+		<tr>
+			<td id="c4" class="gato"></td>
+			<td id="c5" class="gato"></td>
+			<td id="c6" class="gato"></td>
+		</tr>
+		<tr>
+			<td id="c7" class="gato"></td>
+			<td id="c8" class="gato"></td>
+			<td id="c9" class="gato"></td>
+		</tr>
+	</table>
+
+<script src="js/vieja.js"></script>
+</body>
+</html>
